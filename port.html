@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSHI - PORTFOLIYO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0%;
+            }
+
+            body {
+                height: 80px;
+                background-color: #ffffff;
+                color: rgb(0, 0, 0);
+                font-family: "poppins", sans-serif;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: rgb(5, 5, 91);
+                height: 100px;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: center;
+            }
+
+            nav ul li {
+                list-style-type: none;
+                margin: 0 23px;
+                font-size: 1rem;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+            nav ul li a:hover {
+                color: rgb(205, 156, 235);
+                font-size: 1.02rem;
+            }
+
+            .left {
+                font-size: 1.5rem;
+                color: #ffffff;
+            }
+
+            .firstsection {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 80px 0;
+            }
+
+            .firstsection>div {
+                width: 30%;
+
+            }
+
+            .leftsection {
+
+
+                font-size: 2rem;
+                margin: 70px 0;
+            }
+
+            .rightsection img {
+                margin: 50px 0;
+                width: 88%;
+            }
+
+            .purple {
+                color: rgb(161, 122, 198);
+
+            }
+
+
+
+
+            .secleft {
+                width: 50%;
+                align-items: center;
+            }
+
+            .secright {
+                font-size: 2rem;
+                margin: 0%;
+                width: 50%;
+
+            }
+
+            .secright>div {
+                font-size: 1.5rem;
+
+
+            }
+
+            .firstfoot {
+                margin-left: auto;
+                align-items: center;
+                color: bisque;
+            }
+
+
+            .secleft img {
+                margin: 100px;
+                width: 50%;
+            }
+
+
+
+
+
+
+            .lavander-text {
+                color: rgb(161, 122, 198);
+                font-size: 0.8rem;
+                ;
+            }
+
+
+
+
+            .footer {
+                background-color: rgb(20, 20, 40);
+                height: 180px;
+            }
+
+            .footer {
+                display: flex;
+                padding: 23px 122px;
+
+
+            }
+
+            .header {
+                color: rgb(223, 117, 232);
+
+                font-size: 3rem;
+                margin-left: 140px;
+                padding: 0px;
+                margin-top: 0px;
+
+            }
+
+            .header2 {
+                color: rgb(161, 122, 198);
+                font-size: 1.2rem;
+                margin-left: 140px;
+                padding: 0;
+
+            }
+
+            .text-center {
+                padding-top: 140px;
+                text-align: center;
+                color: blanchedalmond;
+            }
+
+            .box {
+                background-color: aliceblue;
+                width: 30vw;
+                height: 2px;
+
+                display: flex;
+
+
+            }
+
+            .vertical {
+                background-color: aliceblue;
+                width: 0.1vw;
+                height: 20px;
+                justify-content: space-around;
+
+            }
+
+            @media screen and (max-width: 300px) {
+
+                body {
+                    background-color: red;
+                }
+            }
+
+            .forthsection {
+                display: flex;
+                padding-left: 140px;
+                justify-content: left;
+                align-items: left;
+
+                margin: 80px 0;
+            }
+
+            .secondsection {
+
+                padding: 15px 9%;
+                padding-bottom: 100px;
+            }
+
+            .thirdsection {
+
+                padding: 15px 9%;
+                padding-bottom: 100px;
+            }
+
+            .box-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+                gap: 15px;
+            }
+
+            .boxc {
+                box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+                border-radius: 5px;
+                background: #ffffff;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .boxc img {
+                height: 80px;
+
+            }
+
+            .box-container.boxc.h3 {
+                color: #444;
+                font-size: 22px;
+                padding: 10px 0;
+
+            }
+
+            .boxc.p {
+                color: #777;
+                font-size: 15px;
+                line-height: 1.8;
+            }
+
+            .btn {
+                margin-top: 10px;
+                display: inline-block;
+                background: #333;
+                color: #fff;
+                font-size: 17px;
+                border-radius: 5px;
+                padding: 8px 25px;
+                text-decoration: none;
+            }
+
+            .btn:hover {
+                letter-spacing: 1px;
+
+            }
+
+            .boxc:hover {
+                box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+                transform: scale(1.03);
+            }
+
+            @media(max-width:768px) {
+                .forthsection {
+                    padding: 20px;
+                }
+            }
+        </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> AYUSHI PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/"> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello ,it's me <span class="purple">AYUSHI</span>
+                <div> and i am a passinate </div>
+                <div>Web developer</div>
+            </div>
+            <div class="rightsection">
+                <img src="mypic-removebg-preview (2).png" alt="">
+            </div>
+
+        </section>
+
+        <h1> <span class="header">SKILS</span></h1>
+        <section class="secondsection">
+            <div class="box-container">
+                <div class="boxc">
+                    <img src="html.2.jpg" alt="">
+                    <h3>HTML 5</h3>
+
+
+                </div>
+                <div class="boxc">
+                    <img src="css.jpeg" alt="">
+                    <h3>CSS 3</h3>
+
+
+                </div>
+
+                <div class="boxc">
+                    <img src="python.webp" alt="">
+                    <h3>Python</h3>
+
+                </div>
+
+                <div class="boxc">
+                    <img src="JAVASCRIPT.jpeg" alt="">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div class="boxc">
+                    <img src="c++.jpeg" alt="">
+                    <h3>C++</h3>
+
+                </div>
+
+
+        </section>
+
+        <div><span class="lavander-text"><span class="header2">PROJECTS I HAVE DONE SO FAR </span></span></div>
+        <h2><span class="header"> PAST PROJECTS</span> </h2>
+        <section class="thirdsection">
+
+
+            <div class="box-container">
+                <div class="boxc">
+
+                    <h3>PORTFOLIO</h3>
+                    <p>I have made my portfoliyo</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                <div class="boxc">
+
+                    <h3>LANDING PAGE</h3>
+                    <p>I made a landing page for a tech company</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+
+        </section>
+
+        <div><span class="header2">Download</span></div>
+        <h3> <span class="header">MY RESUME</span></h3>
+        <section class="forthsection">
+            <a href="Resume.pdf" class="btn">RESUME</a>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="firstfooter">
+                <h1><span class="firstfoot">AYUSHI's PORTFOLIO</span></h1>
+            </div>
+            <div class="secfooter">
+                ul
+            </div>
+            <div class="thirdfooter"></div>
+            <div class="forthfooter"></div>
+
+
+            <div class="text-center">&#169 2023, AYUSHI's PORTFOLIO | All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
