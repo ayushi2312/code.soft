@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0%;
+                box-sizing: border-box;
+                outline: none;
+                border: none;
+
+            }
+
+            body {
+                height: 80px;
+               background-color: rgb(255, 255, 255);
+              
+                color: rgb(5, 3, 4);
+                font-family: "poppins", sans-serif;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                background-color: rgba(248, 55, 135, 0.445);
+                align-items: center;
+
+                height: 100px;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: center;
+            }
+
+            nav ul li {
+                list-style-type: none;
+                margin: 0 23px;
+                font-size: 1rem;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+
+            nav ul li a:hover {
+                color: rgb(205, 156, 235);
+                font-size: 1.02rem;
+
+            }
+
+            .left {
+                font-size: 1.5rem;
+            }
+
+            .firstsection>div {
+                background-image: url(homepage_background_fade.jpg);
+
+                padding: 0%;
+                margin: 0%;
+                height: 650px;
+                width: 100%;
+            }
+
+            .leftsection>div {
+
+                padding: 0 140px;
+
+                font-size: 2rem;
+
+            }
+
+            .rightsce {
+                font-size: 2rem;
+                margin: 100px ;
+                width: 30%;
+
+                display : flex;
+
+
+            }
+
+            .purple {
+                color:rgb(225, 49, 149)
+
+            }
+
+            .secondsection {
+                display: flex;
+                justify-content: space-around;
+                
+                margin: 0%;
+                height: 695px;
+
+
+            }
+            .secondsection>div {
+                background-image: url(R-removebg-preview.png);
+
+                padding: 0%;
+                margin: 0%;
+                height: 650px;
+                width: 100%;
+            }
+
+
+
+            .secright {
+                font-size: 2rem;
+                margin: 0%;
+                width: 70%;
+                display: block;
+
+
+            }
+
+
+            .secleft {
+
+                width: 30%;
+
+            }
+
+            .secleft img {
+                margin: 100px;
+                width: 50%;
+            }
+
+
+
+            .secright>div {
+                font-size: 1.5rem;
+
+
+            }
+
+            .thirdsection {
+
+                justify-content: space-around;
+                
+                align-items: center;
+                height: 670px;
+
+                margin: 80px 0;
+
+
+            }
+
+            .lavander-text {
+                color: linear-gradient(45deg, rgb(145, 44, 213), lightgreen);
+                font-size: 0.8rem;
+                
+            }
+
+
+
+            .footer {
+                background-color: rgb(19, 7, 76);
+                height: 180px;
+                padding: 0%;
+            }
+
+            .footer {
+                display: flex;
+                padding: 23px 122px;
+
+
+            }
+
+            .header {
+                color: rgb(248, 247, 251);
+                font-size: 1rem;
+                margin-left: 140px;
+
+
+                background-color: black;
+                height: 1.2rem;
+
+            }
+
+            .header2 {
+                color: rgb(161, 122, 198);
+                font-size: 1.2rem;
+                margin-left: 140px;
+                padding: 0%;
+
+            }
+
+            .header3 {
+                margin-left: 140px;
+                align-items: center;
+                color: rgb(14, 8, 85);
+                font-size: 2rem;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 0%;
+
+            }
+
+            .text-center {
+                padding: 0%;
+                text-align-last: left;
+                color: blanchedalmond;
+            }
+
+            .box {
+
+
+                width: 2px;
+                height: 55px;
+                margin-left: 140px;
+                font-size: 0.5rem;
+                color: rgb(6, 6, 6);
+                width: 100%;
+
+
+            }
+
+            .vertical {
+                background-color: rgb(238, 7, 7);
+                width: 0.2vw;
+                height: 150px;
+                justify-content: space-around;
+
+            }
+
+            .background {
+                height: 500px;
+                justify-items: center;
+            }
+
+            .forthsection {
+                background: linear-gradient(45deg, rgb(236, 93, 172), lightgreen);
+                padding: 15px 9%;
+                padding-bottom: 100px;
+            }
+
+            .box-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+                gap: 15px;
+            }
+
+            .boxc {
+                box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+                border-radius: 5px;
+                background: #ffffff;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .boxc img {
+                height: 80px;
+
+            }
+
+            .boxc.h3 {
+                color: #444;
+                font-size: 22px;
+                padding: 10px 0;
+
+            }
+
+            .boxc.p {
+                color: #777;
+                font-size: 15px;
+                line-height: 1.8;
+            }
+
+            .btn {
+                margin-top: 10px;
+                display: inline-block;
+                background : #333;
+                color: #fff;
+                font-size: 17px;
+                border-radius: 5px;
+                padding: 8px 25px;
+                text-decoration: none;
+            }
+            .btn:hover{
+                letter-spacing: 1px;
+
+            }
+            .boxc:hover{
+                box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+                transform: scale(1.03);
+            }
+            @media(max-width:768px){
+                .forthsection{
+                    padding: 20px;
+                }
+            }
+
+        </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> LANDING PAGE</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/"> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+
+            <div class="rightsce">
+
+                <div>
+                    <div>  Hello, it's us <span class="purple">TECH INDIA</span></div>
+                    <div>  and we are here to make </div>
+                    <div>  your life easy .</div>
+                </div>
+
+
+            </div>
+            </div>
+        </section>
+        
+       
+        <h1> <span class="header">ABOUT US</span></h1>
+        <section class="secondsection">
+
+            <div class="secright">
+                <h1><span class="header3">We are the Tech group </span></h1>
+                <div class="box">
+                    <div>
+                        <div>India's only value based TECH company —</div>
+                        <div>a visionary, a pioneer, a leader, since 2010.</div>
+                        <div>Scroll below to learn more about us.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="secleft">
+               
+            </div>
+
+
+            </div>
+
+
+            
+        </section>
+        <hr>
+        <div><span class="header2">Here you can see</span></div>
+        <h3> <span class="header">OUR SERVICES</span></h3>
+
+
+        <section class="forthsection">
+            
+            <div class="box-container">
+                <div class="boxc">
+                    <img src="html.2.jpg" alt="">
+                    <h3>HTML 5</h3>
+                    <p></p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                <div class="boxc">
+                    <img src="css.jpeg" alt="">
+                    <h3>CSS 3</h3>
+                    <p></p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+               
+                <div class="boxc">
+                    <img src="python.webp" alt="">
+                    <h3>Python</h3>
+                    <p></p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+               
+                <div class="boxc">
+                    <img src="JAVASCRIPT.jpeg" alt="">
+                    <h3>JAVASCRIPT</h3>
+                    <p></p>
+                    <a href="#" class="btn">read more</a>
+
+
+                </div>
+                <div class="boxc">
+                    <img src="c++.jpeg" alt="">
+                    <h3>C++</h3>
+                    <p></p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="firstfooter">
+                <h1></h1>
+            </div>
+            <div class="secfooter">
+                <ul></ul>
+            </div>
+            <div class="thirdfooter"></div>
+            <div class="forthfooter"></div>
+
+
+            <div class="text-center">&#169 2023, AYUSHI's PORTFOLIO | All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
